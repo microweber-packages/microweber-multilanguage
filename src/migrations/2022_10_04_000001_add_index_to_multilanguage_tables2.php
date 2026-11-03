@@ -1,0 +1,58 @@
+<?php
+
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration {
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+
+        try {
+            Schema::table('multilanguage_translations', function (Blueprint $table) {
+                $table->fullText('field_value');
+            });
+        } catch (Exception $e) {
+
+        }
+
+
+        try {
+            Schema::table('multilanguage_supported_locales', function (Blueprint $table) {
+                $table->index('display_locale');
+
+            });
+        } catch (Exception $e) {
+
+        }
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        try {
+            Schema::table('multilanguage_translations', function (Blueprint $table) {
+                $table->dropFullText(['field_value']);
+            });
+        } catch (Exception $e) {
+            // Index may not exist
+        }
+
+        try {
+            Schema::table('multilanguage_supported_locales', function (Blueprint $table) {
+                $table->dropIndex(['display_locale']);
+            });
+        } catch (Exception $e) {
+            // Index may not exist
+        }
+    }
+};
