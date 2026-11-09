@@ -1,15 +1,279 @@
 parameters:
 	ignoreErrors:
 		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\Deprecated\\MwEditor\:\:\$model\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/Deprecated/MwEditor.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\Deprecated\\MwEditor\:\:\$value\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/Deprecated/MwEditor.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\Deprecated\\MwEditor\:\:escape\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/Deprecated/MwEditor.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\Deprecated\\MwEditor\:\:getAttribute\(\)\.$#'
+			identifier: method.notFound
+			count: 3
+			path: src/FormElements/Deprecated/MwEditor.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\Deprecated\\MwEditor\:\:id\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/Deprecated/MwEditor.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\Deprecated\\Text\:\:\$append\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/Deprecated/Text.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\Deprecated\\Text\:\:\$currentLanguage\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/Deprecated/Text.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\Deprecated\\Text\:\:\$model\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/Deprecated/Text.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\Deprecated\\Text\:\:\$prepend\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/Deprecated/Text.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\Deprecated\\Text\:\:getAttribute\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: src/FormElements/Deprecated/Text.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\Deprecated\\TextArea\:\:\$model\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/Deprecated/TextArea.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\Deprecated\\TextArea\:\:\$value\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/Deprecated/TextArea.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\Deprecated\\TextArea\:\:escape\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/Deprecated/TextArea.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\Deprecated\\TextArea\:\:getAttribute\(\)\.$#'
+			identifier: method.notFound
+			count: 3
+			path: src/FormElements/Deprecated/TextArea.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\Deprecated\\TextArea\:\:id\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/Deprecated/TextArea.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\FileOption\:\:\$model\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/FileOption.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\FileOption\:\:\$optionGroup\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/FileOption.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\FileOption\:\:\$optionKey\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/FileOption.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\FileOption\:\:id\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/FileOption.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\FileOption\:\:renderAttributes\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/FileOption.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\MwEditor\:\:\$currentLanguage\.$#'
+			identifier: property.notFound
+			count: 4
+			path: src/FormElements/MwEditor.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\MwEditor\:\:\$model\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/MwEditor.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\MwEditor\:\:\$readValueFromField\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/MwEditor.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\MwEditor\:\:getAttribute\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: src/FormElements/MwEditor.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\MwEditor\:\:renderAttributes\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/MwEditor.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\MwModuleSettings\:\:\$model\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/MwModuleSettings.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\MwModuleSettings\:\:getAttribute\(\)\.$#'
+			identifier: method.notFound
+			count: 4
+			path: src/FormElements/MwModuleSettings.php
+
+		-
+			message: '#^Function _e not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/FormElements/MwModuleSettings.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\Text\:\:\$currentLanguage\.$#'
+			identifier: property.notFound
+			count: 4
+			path: src/FormElements/Text.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\Text\:\:\$model\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/Text.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\Text\:\:\$readValueFromField\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/Text.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\Text\:\:getAttribute\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/Text.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\Text\:\:getAttributes\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/Text.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\TextArea\:\:\$currentLanguage\.$#'
+			identifier: property.notFound
+			count: 5
+			path: src/FormElements/TextArea.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\TextArea\:\:\$model\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/TextArea.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\TextArea\:\:\$readValueFromField\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/TextArea.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\TextArea\:\:getAttribute\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/TextArea.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\TextArea\:\:getAttributes\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/TextArea.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\TextAreaOption\:\:\$model\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/FormElements/TextAreaOption.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\TextAreaOption\:\:id\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/TextAreaOption.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\TextAreaOption\:\:renderAttributes\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/TextAreaOption.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\FormElements\\TextOption\:\:\$model\.$#'
+			identifier: property.notFound
+			count: 2
+			path: src/FormElements/TextOption.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\TextOption\:\:lang\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/TextOption.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\TextOption\:\:renderAttributes\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/TextOption.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\FormElements\\TextOption\:\:setValue\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/FormElements/TextOption.php
+
+		-
 			message: '#^Anonymous function has an unused use \$translationFieldName\.$#'
 			identifier: closure.unusedUse
 			count: 2
-			path: src/Forms/Actions/TranslateFieldAction.php
-
-		-
-			message: '#^Call to static method getLocaleLabel\(\) on an unknown class SolutionForest\\FilamentTranslateField\\Facades\\FilamentTranslateField\.$#'
-			identifier: class.notFound
-			count: 1
 			path: src/Forms/Actions/TranslateFieldAction.php
 
 		-
@@ -73,24 +337,6 @@ parameters:
 			path: src/MultilanguageApi.php
 
 		-
-			message: '#^Function get_category_id_from_url not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/MultilanguageApi.php
-
-		-
-			message: '#^Function get_content_by_id not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/MultilanguageApi.php
-
-		-
-			message: '#^Function save_option not found\.$#'
-			identifier: function.notFound
-			count: 2
-			path: src/MultilanguageApi.php
-
-		-
 			message: '#^Call to an undefined method MicroweberPackages\\Multilanguage\\MultilanguageFilamentPlugin\:\:getName\(\)\.$#'
 			identifier: method.notFound
 			count: 1
@@ -103,61 +349,13 @@ parameters:
 			path: src/MultilanguageFilamentPlugin.php
 
 		-
-			message: '#^Call to method flags\(\) on an unknown class BezhanSalleh\\LanguageSwitch\\LanguageSwitch\.$#'
-			identifier: class.notFound
-			count: 1
-			path: src/MultilanguageFilamentPlugin.php
-
-		-
-			message: '#^Call to method locales\(\) on an unknown class BezhanSalleh\\LanguageSwitch\\LanguageSwitch\.$#'
-			identifier: class.notFound
-			count: 1
-			path: src/MultilanguageFilamentPlugin.php
-
-		-
-			message: '#^Call to static method configureUsing\(\) on an unknown class BezhanSalleh\\LanguageSwitch\\LanguageSwitch\.$#'
-			identifier: class.notFound
-			count: 1
-			path: src/MultilanguageFilamentPlugin.php
-
-		-
-			message: '#^Call to static method make\(\) on an unknown class SolutionForest\\FilamentTranslateField\\FilamentTranslateFieldPlugin\.$#'
-			identifier: class.notFound
-			count: 1
-			path: src/MultilanguageFilamentPlugin.php
-
-		-
 			message: '#^Function current_lang not found\.$#'
 			identifier: function.notFound
 			count: 1
 			path: src/MultilanguageFilamentPlugin.php
 
 		-
-			message: '#^Parameter \$switch of anonymous function has invalid type BezhanSalleh\\LanguageSwitch\\LanguageSwitch\.$#'
-			identifier: class.notFound
-			count: 1
-			path: src/MultilanguageFilamentPlugin.php
-
-		-
-			message: '#^Function category_link not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/MultilanguageLinksGenerator.php
-
-		-
 			message: '#^Function current_lang not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/MultilanguageLinksGenerator.php
-
-		-
-			message: '#^Function get_categories not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/MultilanguageLinksGenerator.php
-
-		-
-			message: '#^Function get_content not found\.$#'
 			identifier: function.notFound
 			count: 1
 			path: src/MultilanguageLinksGenerator.php
@@ -187,39 +385,15 @@ parameters:
 			path: src/MultilanguagePermalinkManager.php
 
 		-
-			message: '#^Call to static method where\(\) on an unknown class Modules\\Category\\Models\\Category\.$#'
-			identifier: class.notFound
+			message: '#^Call to an undefined static method Modules\\Category\\Models\\Category\:\:where\(\)\.$#'
+			identifier: staticMethod.notFound
 			count: 1
 			path: src/MultilanguagePermalinkManager.php
 
 		-
-			message: '#^Call to static method where\(\) on an unknown class Modules\\Content\\Models\\Content\.$#'
-			identifier: class.notFound
+			message: '#^Call to an undefined static method Modules\\Content\\Models\\Content\:\:where\(\)\.$#'
+			identifier: staticMethod.notFound
 			count: 3
-			path: src/MultilanguagePermalinkManager.php
-
-		-
-			message: '#^Function get_categories not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/MultilanguagePermalinkManager.php
-
-		-
-			message: '#^Function get_categories_for_content not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/MultilanguagePermalinkManager.php
-
-		-
-			message: '#^Function get_content not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/MultilanguagePermalinkManager.php
-
-		-
-			message: '#^Function get_page_for_category not found\.$#'
-			identifier: function.notFound
-			count: 1
 			path: src/MultilanguagePermalinkManager.php
 
 		-
@@ -255,24 +429,6 @@ parameters:
 		-
 			message: '#^Call to method terminating\(\) on an unknown class MicroweberPackages\\Application\.$#'
 			identifier: class.notFound
-			count: 1
-			path: src/MultilanguageServiceProvider.php
-
-		-
-			message: '#^Function get_option not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/MultilanguageServiceProvider.php
-
-		-
-			message: '#^Function is_module not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/MultilanguageServiceProvider.php
-
-		-
-			message: '#^Function is_module_installed not found\.$#'
-			identifier: function.notFound
 			count: 1
 			path: src/MultilanguageServiceProvider.php
 
@@ -349,18 +505,6 @@ parameters:
 			path: src/TranslateManager.php
 
 		-
-			message: '#^Function category_link not found\.$#'
-			identifier: function.notFound
-			count: 2
-			path: src/TranslateManager.php
-
-		-
-			message: '#^Function content_link not found\.$#'
-			identifier: function.notFound
-			count: 2
-			path: src/TranslateManager.php
-
-		-
 			message: '#^Access to an undefined property MicroweberPackages\\Multilanguage\\View\\Components\\FormElements\\InputText\:\:\$currentLanguage\.$#'
 			identifier: property.notFound
 			count: 1
@@ -421,18 +565,6 @@ parameters:
 			path: src/helpers/multilanguage_functions.php
 
 		-
-			message: '#^Function get_categories not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/helpers/multilanguage_functions.php
-
-		-
-			message: '#^Function get_content not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/helpers/multilanguage_functions.php
-
-		-
 			message: '#^Function get_flag_icon not found\.$#'
 			identifier: function.notFound
 			count: 1
@@ -440,18 +572,6 @@ parameters:
 
 		-
 			message: '#^Function get_flag_icon_url not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/helpers/multilanguage_functions.php
-
-		-
-			message: '#^Function get_option not found\.$#'
-			identifier: function.notFound
-			count: 3
-			path: src/helpers/multilanguage_functions.php
-
-		-
-			message: '#^Function user_ip not found\.$#'
 			identifier: function.notFound
 			count: 1
 			path: src/helpers/multilanguage_functions.php
